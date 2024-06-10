@@ -12,6 +12,7 @@ Este proyecto de Spring Boot está compuesto por dos módulos: `consumidor` y `p
 
 ## 📂 Estructura del proyecto
 
+```
 Kafka-SpringBoot/
 ├── Consumer/
 │ ├── src/
@@ -23,6 +24,7 @@ Kafka-SpringBoot/
 │ └── ...
 ├── README.md
 └── pom.xml
+```
 
 
 ## ⚙️ Configuración en Windows
