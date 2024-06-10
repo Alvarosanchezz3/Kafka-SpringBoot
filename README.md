@@ -31,8 +31,8 @@ Kafka-SpringBoot/
 
 1. Descarga e instala Apache Kafka y Zookeeper --> Aquí: https://kafka.apache.org/downloads
 2. Cambia los archivos:
-  - /config/server.properties --> Cambiar esto "/tmp/kafka-logs" por la ruta en windows, por ejemplo: ```C:Kafka/kafka-logs```
-  - /config/zookeeper.properties --> Cambiar esto "/tmp/zookeeper" por la ruta en windows y añadir "-data", por ejemplo: ```C:Kafka/zookeeper-data```
+  - /config/server.properties --> Cambiar el valor del atributo log.dirs de esto ```/tmp/kafka-logs``` por la ruta en windows, por ejemplo: ```C:Kafka/kafka-logs```
+  - /config/zookeeper.properties --> Cambiar el valor del atributo dataDir ```/tmp/zookeeper``` por la ruta en windows y añadir "-data", por ejemplo: ```C:Kafka/zookeeper-data```
 4. Inicia Zookeeper:
     ```
     .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
